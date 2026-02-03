@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -8,21 +9,18 @@ __pycache__/
 env/
 venv/
 
-# Jupyter
-.ipynb_checkpoints
-*.ipynb
+# Jupyter checkpoints (keep actual notebooks)
+.ipynb_checkpoints/
 
-# Data
-data/processed/
-data/raw/
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
-# Editor
+# Editor directories
 .vscode/
 .idea/
 
+# Git LFS attributes
+.gitattributes
 # Git LFS attributes
 .gitattributes
